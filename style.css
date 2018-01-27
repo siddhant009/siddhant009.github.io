@@ -149,12 +149,41 @@ ul li a{
   text-decoration: none;
   font-size: 15px;
   font-family: arial;
-  color: blue;
+  color: black;
   padding: 0 95px;
 }
 
 ul li a:hover{
   color: red;
+}
+
+.sydney{
+  width: 1350px;
+  height: 400px;
+  background-image: url(images/sydney.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.text{
+  width: 50%;
+  float: right;
+}
+
+.text p{
+  color: yellow;
+  padding:20px 10px 0 30px;
+}
+
+.text ul li a{
+  
+  font-size: 15px;
+  font-family: arial;
+  color: yellow;
+
+}
+.text ul li a:hover{
+  color: blue;
 }
 
 p{
